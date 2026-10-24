@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">听会</string>
+    <string name="tile_label">听会录音</string>
+    <string name="shortcut_record">开始录音</string>
+    <string name="shortcut_ask">小灯</string>
+    <string name="shortcut_todo">我的待办</string>
+</resources>

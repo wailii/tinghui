@@ -1,0 +1,33 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 长按桌面图标弹出来的几项；「录下一场会」「最近一场会」是 App 里按日程和录音动态加的 -->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/sc_record"
+        android:shortcutId="record"
+        android:shortcutShortLabel="@string/shortcut_record">
+        <intent
+            android:action="com.xiaodeng.tinghui.RECORD"
+            android:targetClass="com.xiaodeng.tinghui.MainActivity"
+            android:targetPackage="com.xiaodeng.tinghui" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/sc_ask"
+        android:shortcutId="ask"
+        android:shortcutShortLabel="@string/shortcut_ask">
+        <intent
+            android:action="com.xiaodeng.tinghui.ASK"
+            android:targetClass="com.xiaodeng.tinghui.MainActivity"
+            android:targetPackage="com.xiaodeng.tinghui" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/sc_recent"
+        android:shortcutId="todo"
+        android:shortcutShortLabel="@string/shortcut_todo">
+        <intent
+            android:action="com.xiaodeng.tinghui.TODO"
+            android:targetClass="com.xiaodeng.tinghui.MainActivity"
+            android:targetPackage="com.xiaodeng.tinghui" />
+    </shortcut>
+</shortcuts>
