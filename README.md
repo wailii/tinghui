@@ -1,12 +1,16 @@
 # 听会
 
+**下载安卓安装包（听会 v2.11，68 MB）：**
+
+https://github.com/wailii/tinghui/releases/latest/download/tinghui-v2.11.apk
+
+手机浏览器打开这个链接就会直接下载。仓库根目录的 `听会-v2.11-分享版.apk` 是同一个文件。
+
 开会录音转文字的 App：录完自动转写、分出谁说的、出纪要和待办，能接着问「小灯」，也能一键发到飞书。
 
-## 下载
+## 安装
 
-**[点这里下载 听会 v2.11（安卓，68 MB）](https://github.com/wailii/tinghui/releases/latest/download/tinghui-v2.11.apk)**
-
-**怎么装**：用手机浏览器点上面的链接，下载完点开安装包。手机提示「未知来源」或「外部来源应用」时选允许（vivo 要先勾「已了解风险」再点继续安装）。
+下载完点开安装包。手机提示「未知来源」或「外部来源应用」时选允许（vivo 要先勾「已了解风险」再点继续安装）。
 
 - 需要安卓 12 及以上
 - 转写用阿里云百炼，要自己的 Key（[百炼控制台](https://bailian.console.aliyun.com/) 申请，按量计费，40 分钟的会约几分钱），在 App 设置里填
