@@ -52,7 +52,7 @@ object FeishuPush {
 
     /**
      * 日程名算不算同一个会：去掉括号里的会议室、空格和符号再比，一个包含另一个也算。
-     * 「FlagOS产品周会-（511会议室）」和「FlagOS产品周会」是同一个；「FlagOS产品双周会」不是
+     * 「产品周会-（3 楼会议室）」和「产品周会」是同一个；「产品双周会」不是
      */
     fun sameName(a: String, b: String): Boolean {
         fun n(s: String) = s.replace(Regex("[（(][^）)]*[）)]"), "").replace(Regex("[\\s·\\-_【】\\[\\]，,。:：]"), "").lowercase()

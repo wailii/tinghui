@@ -177,7 +177,7 @@ object Llm {
         if (!plain) {
             body.put("max_tokens", 16000)
             if (cfg.noThink) {
-                // 各家关思考的写法不一样：DeepSeek 官方认 thinking，vLLM 部署的（比如 flagos）认 chat_template_kwargs
+                // 各家关思考的写法不一样：DeepSeek 官方认 thinking，vLLM 部署的（比如一些自建网关）认 chat_template_kwargs
                 body.put("thinking", JSONObject().put("type", "disabled"))
                 body.put("chat_template_kwargs", JSONObject().put("enable_thinking", false))
             }
